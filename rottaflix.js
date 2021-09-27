@@ -1,7 +1,7 @@
 // MEUS FILMES - Catálogo //
 
 const meusFilmes = ["Matrix", "Vingadores", "John Wick", "Thor", "Star Wars", "Senhor dos Aneis", "Escola de Rock", "Mulher Maravilha", "Liga da Justiça", "Lobo de Wall Street", "Coringa", "Os 7 Crimes Capitais", "Exterminador do Futuro", "Toy Story", "Rei Leão", "Tempos Modernos", "Duro de Matar", "Velozes e Furiosos", "Missão Impossível", "Mortal Kombat", "Batman: O Cavaleiro das trevas", "Rocky", "Escorpião Rei"];
-const meusFilmesImagens = ["imagens/Matrix.jpg", "imagens/Vingadores Ultimato.jpg", "imagens/John Wick.jpg", "imagens/Thor.jpg", "imagens/Star Wars.jpg", "imagens/Lord of the Rings.jpg", "imagens/Rock.jpg", "imagens/Mulher Maravilha.jpg", "imagens/SnyderCut.jpg", "imagens/TheWolf.jpg", "imagens/Joker.jpg", "imagens/Seven.jpg", "imagens/Terminator.jpg", "imagens/Toy Story.jpg", "imagens/LionKing.jpg", "imagens/Charles.jpg", "imagens/Die Hard.jpg", "imagens/FastFurious.jpg", "imagens/Missao impossivel.jpg", "imagens/Mk.jpg", "imagens/Batman.jpg", "imagens/Rocky.jpg", "imagens/ScorpionKing.jpg"];
+const meusFilmesImagens = ["imagens/Matrix.jpg", "imagens/Vingadores Ultimato.jpg", "imagens/John Wick.jpg", "imagens/Thor.jpg", "imagens/Star Wars.jpg", "imagens/Lord of the Rings.jpg", "imagens/Rock.jpg", "imagens/Mulher Maravilha.jpg", "imagens/SnyderCut.jpg", "imagens/TheWolf.jpg", "imagens/Joker.jpg", "imagens/Seven.jpg", "imagens/Terminator.jpg", "imagens/Toy Story.jpg", "imagens/LionKing.jpg", "imagens/Charles.jpg", "imagens/Die Hard.jpg", "imagens/FastFurious.jpg", "imagens/Missao Impossivel.jpg", "imagens/MK.jpg", "imagens/Batman.jpg", "imagens/Rocky.jpg", "imagens/ScorpionKing.jpg"];
 
 // Página Inicial //
 
