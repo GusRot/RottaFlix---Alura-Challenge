@@ -61,7 +61,9 @@ function removerEspecifico () {
   listaFilmes.innerHTML = "";
   erro.innerHTML = "Filme " + indiceDoFilme + " removido";
 
-  if (guardarFilmes.length == 0) {
+  if (indiceDoFilme == "") {
+    erro.innerHTML = "Preencha o campo com o número do indice";
+  } else if (guardarFilmes.length == 0) {
     document.getElementById("removerUm").disabled = true;
     document.getElementById("remover").disabled = true;
   } else {
