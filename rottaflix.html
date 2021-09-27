@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="reset.css">  
+    <link rel="stylesheet" href="rottaflix.css">
+    <script src="rottaflix.js"></script>
+    <title>Rottaflix</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1 class="page-title">
+      <a href="rottaflix catalogo.html">Rottaflix - Catálogo</a>
+    </h1>
+    <img src="file:///D:/OneDrive/DEV/Programas/Desafios%20Alura/RottaFlix/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+    <p class="page-subtitle">
+        Adicione seus filmes favoritos ao catálogo! <br> Informe o nome e adicione um link que contenha uma imagem.
+      </p>
+    <p class="page-subtitle2">
+      Qual filme deseja adicionar?
+    </p>
+    <p class="page-subtitle3">
+      Você pode copiar um endereço de imagem do navegador.<br>(devem terminar com jpg / png)
+    </p>
+    <p class ="erro" id = "erro"> <br> </p>
+    <div class="form-wrapper">
+        <input type="text" id="nomeFilme" name="nomeFilme" placeholder="Nome do Filme" maxlength="36">
+        <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem"> <br>
+        <button onClick="adicionarFilme()">Adicionar Filme</button>
+        <button id="remover" onClick="removerTodos()" disabled>Remover todos Filmes</button> <br>
+    </div>
+  </div>
+  <div>
+      <lu>
+          <li id="listaFilmes" style="display: inline-block;"></li>
+          <li id="nomeFilmes" style="display: inline-block;"></li>
+      </lu>
+      <br><input type="number" id="numeroFilme" name="numeroFilme" placeholder="Indice do filme (número)">
+      <button onClick="removerEspecifico()" id="removerUm" disabled class="botaoRemover">Remover um filme</button> 
+  </div>
+</body>
+
+</html>
+
